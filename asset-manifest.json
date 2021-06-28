@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio-V1/static/css/main.aa3e5a8d.chunk.css",
+    "main.js": "/Portfolio-V1/static/js/main.4ef939b0.chunk.js",
+    "main.js.map": "/Portfolio-V1/static/js/main.4ef939b0.chunk.js.map",
+    "runtime-main.js": "/Portfolio-V1/static/js/runtime-main.2ce5e70b.js",
+    "runtime-main.js.map": "/Portfolio-V1/static/js/runtime-main.2ce5e70b.js.map",
+    "static/js/2.e7fa17e5.chunk.js": "/Portfolio-V1/static/js/2.e7fa17e5.chunk.js",
+    "static/js/2.e7fa17e5.chunk.js.map": "/Portfolio-V1/static/js/2.e7fa17e5.chunk.js.map",
+    "static/js/3.4ddc29b1.chunk.js": "/Portfolio-V1/static/js/3.4ddc29b1.chunk.js",
+    "static/js/3.4ddc29b1.chunk.js.map": "/Portfolio-V1/static/js/3.4ddc29b1.chunk.js.map",
+    "index.html": "/Portfolio-V1/index.html",
+    "static/css/main.aa3e5a8d.chunk.css.map": "/Portfolio-V1/static/css/main.aa3e5a8d.chunk.css.map",
+    "static/js/2.e7fa17e5.chunk.js.LICENSE.txt": "/Portfolio-V1/static/js/2.e7fa17e5.chunk.js.LICENSE.txt",
+    "static/media/bank.82bfca73.PNG": "/Portfolio-V1/static/media/bank.82bfca73.PNG",
+    "static/media/blogr.a62c4b6d.PNG": "/Portfolio-V1/static/media/blogr.a62c4b6d.PNG",
+    "static/media/calc.c81ea87f.PNG": "/Portfolio-V1/static/media/calc.c81ea87f.PNG",
+    "static/media/countries.d6d3bb6f.PNG": "/Portfolio-V1/static/media/countries.d6d3bb6f.PNG",
+    "static/media/insure.c85d0057.PNG": "/Portfolio-V1/static/media/insure.c85d0057.PNG",
+    "static/media/loop.509da2c9.PNG": "/Portfolio-V1/static/media/loop.509da2c9.PNG",
+    "static/media/netflix.b2781e7f.PNG": "/Portfolio-V1/static/media/netflix.b2781e7f.PNG",
+    "static/media/spotify.fe7a76c2.PNG": "/Portfolio-V1/static/media/spotify.fe7a76c2.PNG",
+    "static/media/stroom.b665ffd9.PNG": "/Portfolio-V1/static/media/stroom.b665ffd9.PNG",
+    "static/media/tesla.dc0bff95.PNG": "/Portfolio-V1/static/media/tesla.dc0bff95.PNG",
+    "static/media/timer.0fe5c952.PNG": "/Portfolio-V1/static/media/timer.0fe5c952.PNG",
+    "static/media/video.93e5dd0d.mp4": "/Portfolio-V1/static/media/video.93e5dd0d.mp4",
+    "static/media/weather.5f193d04.PNG": "/Portfolio-V1/static/media/weather.5f193d04.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ce5e70b.js",
+    "static/js/2.e7fa17e5.chunk.js",
+    "static/css/main.aa3e5a8d.chunk.css",
+    "static/js/main.4ef939b0.chunk.js"
+  ]
+}
