@@ -1,0 +1,146 @@
+.first * {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.first {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(37, 41, 52, 0.8); */
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+.first h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.pink {
+  color: #e31b6d;
+  font-weight: 600;
+}
+.work-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  border: 2px solid white;
+  padding: 12px;
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 16rem;
+  transition: all 0.75s ease-in-out;
+}
+.work-btn:hover {
+  background-color: white;
+  color: #252934;
+  border: 2px solid #252934;
+}
+.fa-arrow-right {
+  transition: all 0.75s ease-in-out;
+  color: white;
+}
+.work-btn:hover .fa-arrow-right {
+  transform: rotate(90deg);
+  color: #252934;
+}
+.animated {
+  color: #e31b6d;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+}
+.animated::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000100;
+  animation: slideRight 6s steps(24) 1.2s infinite;
+  opacity: 1;
+}
+.animated::after {
+  content: "";
+  position: absolute;
+  background-color: #e31b6d;
+  width: 0.7%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  animation: slideRight 6s steps(24) 1.2s infinite,
+    blink 600ms steps(23) infinite;
+  opacity: 1;
+}
+@keyframes slideRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    right: 0;
+    left: 100%;
+    margin: 0 -35px 0px 35px;
+  }
+}
+@keyframes blink {
+  to {
+    background-color: transparent;
+  }
+}
+.h1 {
+  display: inline-flex;
+}
+h1 ul {
+  overflow: hidden;
+  /* line-height: 84px; */
+  height: 68px;
+}
+.h1 ul li {
+  margin-left: 20px;
+  animation: slideTop 12s steps(2) 1.2s infinite;
+  position: relative;
+  top: 0;
+}
+@keyframes slideTop {
+  100% {
+    top: -138px;
+  }
+}
+.video {
+  position: absolute;
+  z-index: -2;
+}
+@media screen and (max-width: 415px) {
+  .first {
+    text-align: center;
+  }
+  .animated::before,
+  .animated::after {
+    animation: none;
+    display: none;
+  }
+  .h1 ul li {
+    animation: none;
+    font-size: 40px;
+    margin: 0;
+  }
+  .h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .h1 ul {
+    overflow: visible;
+    height: max-content;
+  }
+}
