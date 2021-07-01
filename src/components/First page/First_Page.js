@@ -10,7 +10,7 @@ function FirstPage() {
     init(first, {
       showCursor: true,
       strings: ["Frontend developer", "React JS developer"],
-      typeSpeed: 200,
+      typeSpeed: 100,
     });
   }, []);
   return (
