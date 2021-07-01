@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./First_Page.css";
 import video from "./video.mp4";
+import { init } from "ityped";
 function FirstPage() {
   const mobile = window.innerWidth;
+  useEffect(() => {
+    const first = document.querySelector("#one");
+    const second = document.querySelector("#two");
+    init(first, {
+      showCursor: true,
+      strings: ["Frontend developer", "React JS developer"],
+      typeSpeed: 200,
+    });
+  }, []);
   return (
     <>
       <div id="first" className="first">
@@ -14,15 +24,15 @@ function FirstPage() {
           I'm a
           <ul>
             <li>
-              <span className="animated"> front-end web developer</span>
+              <span id="one" className=""></span>
             </li>
-            {mobile > 415 ? (
+            {/* {mobile > 415 ? (
               <li>
-                <span className="animated"> React js developer</span>
+                <span id="two" className=""></span>
               </li>
             ) : (
               ""
-            )}
+            )} */}
           </ul>
         </h1>
         <a className="work-btn" href="#projects">
