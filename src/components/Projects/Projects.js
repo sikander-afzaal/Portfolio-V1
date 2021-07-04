@@ -126,7 +126,7 @@ function Projects() {
             <img src={calc} alt="" className="grid__image" />
             <a
               className="visit"
-              href="https://calculator-gold-ten.vercel.app/"
+              href="https://ip-address-tracker-mocha.vercel.app/"
               target="blank"
             >
               Visit Site
@@ -206,7 +206,7 @@ function Projects() {
             <img src={timer} alt="" className="grid__image" />
             <a
               className="visit"
-              href="https://countdown-timer-jade.vercel.app/"
+              href="https://sunny-side-nine.vercel.app/"
               target="blank"
             >
               Visit Site

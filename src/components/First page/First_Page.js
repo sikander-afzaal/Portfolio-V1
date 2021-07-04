@@ -3,10 +3,8 @@ import "./First_Page.css";
 import video from "./video.mp4";
 import { init } from "ityped";
 function FirstPage() {
-  const mobile = window.innerWidth;
   useEffect(() => {
     const first = document.querySelector("#one");
-    const second = document.querySelector("#two");
     init(first, {
       showCursor: true,
       strings: ["Frontend developer", "React JS developer"],
