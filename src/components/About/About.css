@@ -8,6 +8,13 @@
   margin-top: 2rem;
   overflow: hidden;
 }
+.particles {
+  position: absolute;
+  z-index: -1;
+  background-color: #252934;
+  height: 100%;
+  width: 100%;
+}
 .heading {
   font-size: 40px;
   color: #252934;

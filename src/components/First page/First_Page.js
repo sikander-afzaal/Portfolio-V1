@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import "./First_Page.css";
 import video from "./video.mp4";
 import { init } from "ityped";
+import Particles from "react-particles-js";
+import { tsParticles } from "tsparticles";
 function FirstPage() {
   useEffect(() => {
     const first = document.querySelector("#one");
@@ -11,10 +13,34 @@ function FirstPage() {
       typeSpeed: 100,
     });
   }, []);
+  const mobile = window.innerWidth;
+  const part__number = mobile > 414 ? 100 : 30;
   return (
     <>
       <div id="first" className="first">
-        <video className="video" loop="loop" src={video} autoplay="true" />
+        {/* <video className="video" loop="loop" src={video} autoplay="true" /> */}
+        <div className="particles">
+          <Particles
+            params={{
+              particles: {
+                number: {
+                  value: part__number,
+                },
+                size: {
+                  value: 2,
+                },
+              },
+              interactivity: {
+                events: {
+                  onhover: {
+                    enable: true,
+                    mode: "repulse",
+                  },
+                },
+              },
+            }}
+          />
+        </div>
         <h1>
           Hello, I'm <span className="pink">Sikander Afzaal</span>
         </h1>
