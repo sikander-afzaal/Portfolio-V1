@@ -150,7 +150,7 @@ function About() {
             </div>
           </div>
           <div className="js">
-            <p>JAVASCRIPT</p>
+            <p>JS</p>
             <div className="percentage">
               <span className="bar__js"></span> 65%
             </div>

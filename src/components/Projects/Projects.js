@@ -88,7 +88,7 @@ function Projects() {
   return (
     <div id="projects" className="projects">
       <h1 className="heading__project">
-        PROJECTS <span className="before__project"></span>
+        My Works <span className="before__project"></span>
       </h1>
       <div className="table">
         <div className="table__heading">

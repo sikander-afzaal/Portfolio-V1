@@ -89,6 +89,7 @@ function Contact() {
           >
             <i class="fas fa-angle-double-up"></i>
           </div>
+          <p className="copy">Copyright © 2021, Sikander Afzaal</p>
         </div>
       </div>
     </div>

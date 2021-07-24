@@ -13,6 +13,10 @@
   align-items: center;
   padding-bottom: 2rem;
 }
+.copy {
+  margin-top: 25px;
+  color: gray;
+}
 .bottom__div {
   opacity: 0;
   transform: translateY(500px);

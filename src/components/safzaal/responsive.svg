@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 82 71">
+      <image width="82" height="71" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABHCAYAAACUNxCzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP4SURBVHhe7ZxZaFNBFIb/uYnSVINVuonLQ7Vu+KqIgopPSh8EQURRsLg8i4IguKD44ltxoYIg+qJURKwKghuiSN1RpILYol20Ctaa1jbaNDPOlEGrpMm9NyexSc8HIe0fQpIvM2fmhnuuGHPvkQKTNo69Z9KERRLBIolgkUSwSCJIVm0VH4Dq6ABaWoCeiA5yaCMQHAOUlkFUVECMD2sjwj7gjfREamEqGoW8Vj94w9evQKzfPpgjCD0pQwXAjEoEtmyHmD1XR94naloiVSwGeeE85NnTwI+oTXOYylkI7NwNZ958zyMzrRqp3jVD1l/KD4mG5ibIK5d1qYrbwD3+RZpp3dAAfP5kgzxASqhnT3SJ6rSBe/yL1C8qW9/l1sLihp4eoPOL/cc9aU1tIzPvMAPDx+Dwv9joOhI7fAC4fdMGQwiH4azfCEwossEIw5Sl50+h7tyywRAKQgjWHIcwC44HMiOypBTBo7UQU6baYIShZ1L8Yh3k8RobDMGnyPSmNvMbFkkEiySCRRLBIolgkUSwSCJYJBEskggWSQSLJIJFEsEiiWCRRLBIIlgkESySCBZJBIskgkUSwSKJYJFEsEgiWCQRLJKIzJxpEQpBLF8BMW68DUYY+hPLpjfAyxc2GMKIOmUll+FTVv4vLJIIFkkEiySCRRLhf9U2Z722tkBFvtkgTxAORMUMvXUbZwN3+BfJ/AVPbSKSj0gzfU3vSXsb1McPme1iCAQgZlbCKS6xgTtkby9U4ysgFrNJZhD6aM10hpl+RZGgKyylSPmoAfEjh4FO7008ntAinc1b4Gyqdt8LaN7f44eI798DRDPcfRYMQixYiMDeQxDhsA3/kPwdmxHZ3JR5iQZ9yClvXId6+0a/rLuyrXq/Q16tz7xEw8CAHvmNwPduG/xN6q9eeu/L801bG+IH90E9uA/VHYHq60t809NZvn+P+MkTUPfv2idnAfMFy8RfcvKpbfpR6s5B1h6zQZYo0PWoqGhwuifEfKBoHxCJZLZu/8uEIgRPnYEon2yDPyQfkaaoTtZP8tkM7hvTbfupA/jQnvhmFr6uruxKNEycBAzz02BKkc7ceUBZuQ1GMcbF0mVaZOKNeuoaWVwKZ90GIFRog1HK7DlwqlYPu6NIKVKYbcnKKohVVcDYsTYdZUydDqd6G1A+/MxMPSI1orAQgeqtEGvWAoV6aPu45kPOYdYFvXfENC1xxy44CxfpaPi1wtOxturvh3rdqDfBDXqr0pqd/dv/oqRk8EIhzuIl+u+ypBINnn+0GNws680z+n/q+zxsfDcYZ+YyNrqUuT3K8iySScwoKHbZgUUSwSKJYJFEsEgiWCQRLJIIFkkC8AvoPWpeGrpujwAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-0.47 -0.333)">
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="26.5" cy="26.5" r="26.5" transform="translate(0.47 0.333)" fill="#05c2c9"/>
+    <rect id="Image_5" data-name="Image 5" width="30" height="26" transform="translate(11.47 13.333)" fill="url(#pattern)"/>
+  </g>
+</svg>

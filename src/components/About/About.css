@@ -8,13 +8,7 @@
   margin-top: 2rem;
   overflow: hidden;
 }
-.particles {
-  position: absolute;
-  z-index: -1;
-  background-color: #252934;
-  height: 100%;
-  width: 100%;
-}
+
 .heading {
   font-size: 40px;
   color: #252934;
@@ -59,19 +53,22 @@
   margin-top: 4rem;
 }
 .traits {
-  height: 400px;
+  height: auto;
   width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 2px solid rgba(5, 194, 201, 0.3);
+  border-radius: 25px;
+  padding: 36px 0px;
 }
 .icon__div {
   background-color: #05c2c9;
-  height: 28rem;
-  width: 16rem;
-  border-radius: 67px;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +78,7 @@
   transform: translateX(-200px) perspective(400px) rotatey(180deg);
 }
 .icon {
-  font-size: 6rem;
+  font-size: 3rem;
 }
 .traits__h2 {
   color: #626262;
