@@ -4,7 +4,7 @@ import bank from "./project_photos/bank.PNG";
 import blogr from "./project_photos/blogr.PNG";
 import calc from "./project_photos/calc.PNG";
 import countries from "./project_photos/countries.PNG";
-import insure from "./project_photos/insure.PNG";
+import rock from "./project_photos/rock.PNG";
 import loop from "./project_photos/loop.PNG";
 import netflix from "./project_photos/netflix.PNG";
 import spotify from "./project_photos/spotify.PNG";
@@ -143,10 +143,10 @@ function Projects() {
             </a>
           </div>
           <div className="image__div non__react">
-            <img src={insure} alt="" className="grid__image" />
+            <img src={rock} alt="" className="grid__image" />
             <a
               className="visit"
-              href="https://insure-landing-page-p.vercel.app/"
+              href="https://rock-paper-scissors-game-theta.vercel.app/"
               target="blank"
             >
               Visit Site
