@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Projects.css";
-import bank from "./project_photos/bank.PNG";
+import commerce from "./project_photos/ecommerce.PNG";
 import blogr from "./project_photos/blogr.PNG";
 import calc from "./project_photos/calc.PNG";
 import countries from "./project_photos/countries.PNG";
@@ -103,10 +103,10 @@ function Projects() {
         </div>
         <div className="table__grid">
           <div className="image__div non__react">
-            <img src={bank} alt="" className="grid__image" />
+            <img src={commerce} alt="" className="grid__image" />
             <a
               className="visit"
-              href="https://easy-bank-sikander-afzaal.vercel.app/"
+              href="https://e-commerce-product-page.vercel.app/"
               target="blank"
             >
               Visit Site
