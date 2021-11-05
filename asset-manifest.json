@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-V1/static/css/main.ed1339a4.chunk.css",
-    "main.js": "/Portfolio-V1/static/js/main.e6ef3a1c.chunk.js",
-    "main.js.map": "/Portfolio-V1/static/js/main.e6ef3a1c.chunk.js.map",
+    "main.js": "/Portfolio-V1/static/js/main.627cc7fc.chunk.js",
+    "main.js.map": "/Portfolio-V1/static/js/main.627cc7fc.chunk.js.map",
     "runtime-main.js": "/Portfolio-V1/static/js/runtime-main.751682d9.js",
     "runtime-main.js.map": "/Portfolio-V1/static/js/runtime-main.751682d9.js.map",
     "static/js/2.5a7db928.chunk.js": "/Portfolio-V1/static/js/2.5a7db928.chunk.js",
@@ -12,10 +12,10 @@
     "index.html": "/Portfolio-V1/index.html",
     "static/css/main.ed1339a4.chunk.css.map": "/Portfolio-V1/static/css/main.ed1339a4.chunk.css.map",
     "static/js/2.5a7db928.chunk.js.LICENSE.txt": "/Portfolio-V1/static/js/2.5a7db928.chunk.js.LICENSE.txt",
-    "static/media/bank.82bfca73.PNG": "/Portfolio-V1/static/media/bank.82bfca73.PNG",
     "static/media/blogr.a62c4b6d.PNG": "/Portfolio-V1/static/media/blogr.a62c4b6d.PNG",
     "static/media/calc.0a6d433c.PNG": "/Portfolio-V1/static/media/calc.0a6d433c.PNG",
     "static/media/countries.d6d3bb6f.PNG": "/Portfolio-V1/static/media/countries.d6d3bb6f.PNG",
+    "static/media/ecommerce.5b105f53.PNG": "/Portfolio-V1/static/media/ecommerce.5b105f53.PNG",
     "static/media/loop.509da2c9.PNG": "/Portfolio-V1/static/media/loop.509da2c9.PNG",
     "static/media/netflix.b2781e7f.PNG": "/Portfolio-V1/static/media/netflix.b2781e7f.PNG",
     "static/media/rock.940cf140.PNG": "/Portfolio-V1/static/media/rock.940cf140.PNG",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.751682d9.js",
     "static/js/2.5a7db928.chunk.js",
     "static/css/main.ed1339a4.chunk.css",
-    "static/js/main.e6ef3a1c.chunk.js"
+    "static/js/main.627cc7fc.chunk.js"
   ]
 }
