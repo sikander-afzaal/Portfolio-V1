@@ -5,7 +5,7 @@ import blogr from "./project_photos/blogr.PNG";
 import calc from "./project_photos/calc.PNG";
 import countries from "./project_photos/countries.PNG";
 import rock from "./project_photos/rock.PNG";
-import loop from "./project_photos/loop.PNG";
+import bill from "./project_photos/bill.PNG";
 import netflix from "./project_photos/netflix.PNG";
 import spotify from "./project_photos/spotify.PNG";
 import stroom from "./project_photos/stroom.PNG";
@@ -153,10 +153,10 @@ function Projects() {
             </a>
           </div>
           <div className="image__div non__react">
-            <img src={loop} alt="" className="grid__image" />
+            <img src={bill} alt="" className="grid__image" />
             <a
               className="visit"
-              href="https://loop-studios-landing-page-sikander-afzaal.vercel.app/"
+              href="https://bill-splitter-pi.vercel.app/"
               target="blank"
             >
               Visit Site
