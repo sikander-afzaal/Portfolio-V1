@@ -216,3 +216,7 @@
 .image__div:nth-of-type(12) {
   animation-delay: 3s;
 }
+.col {
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, 2fr);
+}

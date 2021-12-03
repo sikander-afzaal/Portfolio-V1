@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Projects.css";
 import commerce from "./project_photos/ecommerce.PNG";
 import blogr from "./project_photos/blogr.PNG";
-import calc from "./project_photos/calc.PNG";
+import space from "./project_photos/space.PNG";
 import countries from "./project_photos/countries.PNG";
 import rock from "./project_photos/rock.PNG";
 import bill from "./project_photos/bill.PNG";
@@ -71,18 +71,21 @@ function Projects() {
   const clickHandler = (e) => {
     const list = document.querySelectorAll(".table__list");
     const listImages = document.querySelectorAll(".non__react");
+    const grid = document.querySelector(".table__grid");
     if (e.target.innerText === "React Js") {
       listImages.forEach((image) => {
         image.classList.add("hidden");
       });
       list[0].classList.remove("active");
       list[1].classList.add("active");
+      grid.classList.add("col");
     } else {
       list[1].classList.remove("active");
       list[0].classList.add("active");
       listImages.forEach((image) => {
         image.classList.remove("hidden");
       });
+      grid.classList.remove("col");
     }
   };
   return (
@@ -122,11 +125,11 @@ function Projects() {
               Visit Site
             </a>
           </div>
-          <div className="image__div non__react">
-            <img src={calc} alt="" className="grid__image" />
+          <div className="image__div">
+            <img src={space} alt="" className="grid__image" />
             <a
               className="visit"
-              href="https://ip-address-tracker-mocha.vercel.app/"
+              href="https://sikander-afzaal.github.io/Space-tourism-website/"
               target="blank"
             >
               Visit Site
